@@ -122,3 +122,103 @@ a {
 .simbolo img {
   width: 60px;
 }
+
+// Responsivo
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .BoxLogo {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .primeiraSessao {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .primeiraSessao img {
+    margin: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  .primeiraSessao p {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .segundaSessao {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .segundaSessao img {
+    margin: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  .segundaSessao p {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .terceiraSessao {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .terceiraSessao img {
+    margin-left: 3rem;
+    width: 70%;
+    height: auto;
+  }
+
+  .rodape {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .icones {
+    margin-bottom: 10px;
+  }
+
+  .icones img {
+    width: 30px;
+  }
+
+  .texto-footer p {
+    margin: 5px 0;
+  }
+
+  .simbolo img {
+    width: 50px;
+  }
+}
